@@ -15,7 +15,7 @@ list_of_candidates = []
 candidate_vote_count = {}
 
 #----------------------------------------------------------------------------------------------
-# READ CSV, SKIP HEADER
+# READ CSV AND STORE HEADER
 #----------------------------------------------------------------------------------------------
 poll_data_csv = os.path.join("Resources", "election_data.csv")
 with open(poll_data_csv) as csvfile:
